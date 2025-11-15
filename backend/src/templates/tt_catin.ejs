@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Surat TT Catin</title></head>
+<body>
+  <h2>SURAT TT CATIN</h2>
+  <p>Nomor: <%= letter.data.nomor || '' %></p>
+  <p>Tanggal Surat: <%= letter.date %></p>
+  <hr/>
+  <h3>Data Laki-laki</h3>
+  <p>NIK: <%= letter.data.nik_laki %></p>
+  <p>Nama: <%= letter.data.nama_laki %></p>
+  <p>Tempat Lahir: <%= letter.data.tempat_lahir_laki %></p>
+  <p>Tanggal Lahir: <%= letter.data.tanggal_lahir_laki %></p>
+
+  <h3>Data Perempuan</h3>
+  <p>NIK: <%= letter.data.nik_perempuan %></p>
+  <p>Nama: <%= letter.data.nama_perempuan %></p>
+  <p>Tempat Lahir: <%= letter.data.tempat_lahir_perempuan %></p>
+  <p>Tanggal Lahir: <%= letter.data.tanggal_lahir_perempuan %></p>
+</body>
+</html>
